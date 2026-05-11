@@ -17,7 +17,7 @@ import { FaHexagonNodes } from "react-icons/fa6";
 
 const LogInPage = () => {
   return (
-    <div className="flex flex-col md:flex-row justify-center gap-5 items-center bg-black md:w-[50%] mx-auto mt-20 rounded-2xl border border-white/10 mb-20">
+    <div className="flex flex-col md:flex-row justify-center gap-5 items-center bg-black w-[90%] md:w-[50%] mx-auto mt-20 rounded-2xl border border-white/10 mb-20">
       <div className=" text-white space-y-5 bg-black p-10 ">
         <div className="flex gap-2">
           <FaHexagonNodes className="text-green-500 text-4xl" />
