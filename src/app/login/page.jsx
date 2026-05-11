@@ -33,7 +33,7 @@ const LogInPage = () => {
           <p className="text-white">Please login to your account</p>
         </div>
 
-        <Form className="flex w-96 flex-col gap-4 mx-auto ">
+        <Form className="flex w-full flex-col gap-4 mx-auto ">
           <TextField
             isRequired
             name="email"

@@ -16,7 +16,7 @@ import { FaHexagonNodes } from "react-icons/fa6";
 
 const SignUpPage = () => {
   return (
-    <div className="flex flex-col md:flex-row justify-center gap-5 items-center bg-black w-[90%] md:w-[50%] mx-auto mt-20 rounded-2xl border border-white/10">
+    <div className="flex flex-col mb-20 md:flex-row justify-center gap-5 items-center bg-black w-[90%] md:w-[50%] mx-auto mt-20 rounded-2xl border border-white/10">
       <div className=" text-white space-y-5 bg-black p-10 ">
         <div className="flex gap-2">
           <FaHexagonNodes className="text-green-500 text-4xl" />
@@ -34,7 +34,7 @@ const SignUpPage = () => {
           </p>
         </div>
 
-        <Form className="flex w-96 flex-col gap-4 mx-auto ">
+        <Form className="flex w-full flex-col gap-4 mx-auto ">
           <TextField
             isRequired
             name="name"
